@@ -47,15 +47,15 @@ jobs:
           pip install dvc==3.42.0
           pip install dvc-gdrive==3.0.1
       # DVC
-      - name: Create credentials.json
+      - name: Create final-homework-assignment-8b5a4fe15cae.json
         env:
           GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
         run: |
-          echo $GDRIVE_CREDENTIALS_DATA > credentials.json
+          echo $GDRIVE_CREDENTIALS_DATA > final-homework-assignment-8b5a4fe15cae.json
 
       - name: Modify DVC Remote
         run: |
-          uv run dvc remote modify --local gdrive-remote gdrive_service_account_json_file_path credentials.json
+          uv run dvc remote modify --local gdrive-remote gdrive_service_account_json_file_path final-homework-assignment-8b5a4fe15cae.json
 
       - name: DVC Pull Data
         run: |
