@@ -48,7 +48,6 @@ jobs:
       - name: Configure DVC Remote
         run: |
           uv run dvc remote add -d gdrive_remote gdrive://1iDBe160x9aKT-j70wDSZ7DIVyh67D5dK
-        
       - name: Modify DVC Remote
         run: |
           uv run dvc remote modify --local gdrive_remote gdrive_service_account_json_file_path credentials.json
