@@ -56,7 +56,7 @@ jobs:
           uv run dvc remote modify gdrive_remote gdrive_acknowledge_abuse true
       - name: DVC Pull Data
         run: |
-          uv run dvc pull -v
+          uv run dvc pull -v'''
       # Install dependencies
       - name: Install dependencies
         run: |
