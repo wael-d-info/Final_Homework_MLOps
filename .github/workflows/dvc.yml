@@ -66,14 +66,4 @@ jobs:
         run: |
           mkdir -p plots
           python3 main.py --mode test --data_path ./data/test/ --model_path ./models/cnn_resnet18_freeze_backbone_False.pth
-      # Train CNN Model with MLflow
-      #- name: Train CNN with MLflow
-       # env:
-        #  SECRET_HOST: ${{ secrets.SECRET_HOST }}
-       #   SECRET_PORT: ${{ secrets.SECRET_PORT }}
-        #  SECRET_USERNAME: ${{ secrets.SECRET_USERNAME }}
-       #   SECRET_PPK_VALUE: ${{ secrets.SECRET_PPK_VALUE }}
-       # run: |
-       #   echo "MLFLOW_TRACKING_URI=${{ secrets.MLFLOW_TRACKING_URI}}"
-       #   mkdir -p plots
-       #   python3 main.py --mode train --data_path ./data/test/ --model_path ./models/cnn_resnet18_freeze_backbone_False.pth
+          
