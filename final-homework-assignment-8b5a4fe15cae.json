@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "final-homework-assignment",
+  "private_key_id": "8b5a4fe15cae6cae07b3f4ca733510ab4648f40e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCz8w4MIFVATLto\nRzW4UQD0qpVGe7WUFvb8E47qvKDKGKVGoHCmmwDSyveuwJ5W13PQuke5y1+uJojt\nh6ToJuCw6h3C/w2cQCkMdG21jK0zBcWTTGac2e8XjBgmPvmn+1vlJ7yPg9CT/AwY\njdWXl1XPuuKctBSgRuHghr/6DiWuNbS79FooVF+z3UKyhMYEA/mNpXOrXcg02P0R\nXIled9Tr+1Z64SzoQPus6oIPQdb/Gu1lHqaxRa9L/5hQ5ssGygv2AiPJnDbUx0uq\nmsdDOBo9KSXL/apKR/dCVPVPfhqc9X7TVIBFtAhMtzZDk7RuKgyc7K6I4f5Ua+h3\nCTlaFwLpAgMBAAECggEARDdDf/1R1ApCkQlNqA2tGxL/e7Sx5O2/u1d+uiW/nl0x\nalCv47im20HuGuUSIUGTufCj+B7MqqwZBFKDhS4Xx3k4xw8BDdaUuQ/59vTZQ5pQ\nh8JSs+s54+dL0FPXOILlFz21EYKasz69JyG9crX/5bum5Fiv6QJ15jOu2xA54IwA\nB1/7b2m9PXpA0noyTubWvuCe/TM7FDEs98f9lY8GekN1Lh6VtaospQxVkd2XumNG\ngyEAo3PooQsfdfodLeKLswzNIyo/XVdh4RKRDAkruDDs2RE+DoACIQD79d5KA9WY\n3VUJcUL0tpfIPkrVs9KBE1wB2cV1tcWq6ZIqaLNeMQKBgQDrYcld7jIrknQ9k8hQ\nVLX0Fi3Z4+3AgaqTKRyOSfJNrBggaUyRg/tcHMPcxjN2xoktbO2nsIiPJIM0ShC0\nSbb3oGFBqicqbvh8fPABgC4/l7YsOVo2LjM+ncC+SImaUkukrH6IwHFOuvfTEnhz\nlOckgkCrNjDbTatJmgQ76KdiOwKBgQDDtj88M9C14+tdxU4SbCZvlVChl3AcETHy\nSPoP9hjWlFJWp7y2jR6RGpbk8XpuUUTJwSFWAfg674P4MPGr/G2eBlJHuT6ytptB\nLjLEdRLspOgafBzDyQHLzGdm5GRTGIGTZI9ANDk5fdWoIHbWhau2daCKyR21UGn5\nlxqhFklZKwKBgQDH49Ak046JkCLk1CZtibLHaTpg6n5SWAtqU6RrdYKu0XHfvGyI\nuuNwUwFF8I9t06ZVDEc6e+FMZj6B3lAXOu6Flg5hvETsdTbSSStsqtUbrhPHtKDW\nmB9ukntHXMR2aGLSoqYGLh9LM94XwnzF8vLj/zU58JhG9Mt8gq4LzkSvVwKBgQCC\nNHBzjAFx0XWYSBj91qfnmo4vQ4IZmjMBfx2mmtLBh6IT9rptNQu9+9Oh8ynB1R2P\noIaeIudTxl+lMmLGSkVfWdNJ1mtpGGXIAoVSAJWbjMbCQAofE063mIC+inpYcjha\nqA9J5rSflCEeHqMRa5Lm6/DoBI9YPmyS2b2kqCAaSwKBgQDRLSf3Mv36/YfBngBt\nvUQW732lbdGiK5xUZaYl+2PS/DN6JWNaHqGkVUNfKviLVdDyNbVhMnObbub4s/fW\nCXz2OYKQyCkmuvkkToQg4KIoPuFurBuZno1KZCcu2ZHH5YlindySOlfwi23fASf/\nkOPsh0mXpVRQLcITEueSF5SSLg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "waeldaikhi@final-homework-assignment.iam.gserviceaccount.com",
+  "client_id": "115380442909366257937",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/waeldaikhi%40final-homework-assignment.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

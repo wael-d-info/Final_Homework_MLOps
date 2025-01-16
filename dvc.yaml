@@ -1,0 +1,39 @@
+name: DVC Integration
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  dvc:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install dvc[gdrive]
+
+      - name: Set up DVC credentials for Google Drive
+        run: |
+          echo "${{ secrets.final-homework-assignment-8b5a4fe15cae }}" > final-homework-assignment-8b5a4fe15cae.json
+          dvc remote modify gdrive_remote gdrive_service_account_json final-homework-assignment-8b5a4fe15cae.json
+
+      - name: Pull dataset from DVC
+        run: |
+          dvc pull
+
+      - name: Verify pipeline integrity
+        run: |
+          dvc status
